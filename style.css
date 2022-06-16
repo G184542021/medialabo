@@ -1,0 +1,27 @@
+html {
+    background-color:blanchedalmond;
+}
+h1 {
+    color: green;
+}
+h1.A {
+    border: 4mm ridge rgba(50, 220, 50, 0.6);
+    background-color:aquamarine;
+    padding: 20px;
+    width: 470px;
+}
+h2 {
+    display: inline-block;
+    border: thick double rgba(162, 31, 202, 0.6);
+   background-color:aquamarine;
+   padding: 8px;
+}
+
+p {
+    font-style: oblique 20deg;
+}
+h3 {
+    display: inline-block;
+    border-bottom: solid 2px purple;
+}
+
