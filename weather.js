@@ -49,4 +49,6 @@ let data = {
 console.log(data.name);
 console.log(data.main.temp_max);
 console.log(data.main.temp_min);
-
+Name.textContent = data.name;
+Coordlon.textContent = data.coord.lon;
+Coordlat.textContent = data.coord.lat;

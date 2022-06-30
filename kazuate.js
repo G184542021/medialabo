@@ -21,23 +21,23 @@ function hantei(n) {
 
     if(kotae === yoso){
         if(n === 1) {
-            console.log('正解です. おめでとう!');
+            result.textContent = '正解です. おめでとう!';
         }else {
-        console.log('答えは' + yoso + 'でした. すでにゲームは終わっています');
+            result.textContent = '答えは' + yoso + 'でした. すでにゲームは終わっています';
         }
     }
     else if (kotae >= yoso) {
         if (n === 4) {
-            console.log('まちがい. 残念でした答えは' + kotae + 'です.');
+            result.textConent = 'まちがい. 残念でした答えは' + kotae + 'です.';
         } else {
-        console.log('まちがい. 答えはもっと大きいですよ');
+            result.textContent = 'まちがい. 答えはもっと大きいですよ';
         }
     }
     else {
         if (n === 4) {
-            console.log('まちがい. 残念でした答えは' + kotae + 'です.');
+            result.textContent = 'まちがい. 残念でした答えは' + kotae + 'です.';
         } else {
-        console.log('まちがい. 答えはもっと小さいですよ');
+            result.textContent = 'まちがい. 答えはもっと小さいですよ';
         }
     }
     
