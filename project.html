@@ -9,28 +9,10 @@
     <script src="weather.js" defer></script>
 </head>
 <body>
-    <table border="5">
-        <thead>
-            <tr>
-                <th colspan="2"></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-<<<<<<< 世界の天気
-                <th><p>国名: <a key=""></a>  </p> </th>
-                <td></td>
-                <td><p>緯度: <a 緯度="coord.lon"></a></p> <p>経度: <a 経度="coord.lat"></a></p> <p>天気: <a 天気="weather.description"></a></p> <p>最低気温: <a 最低気温="main.temp_min"></a></p><p>最高気温: <a 最高気温="main.temp_man"></a></p><p>湿度: <a 湿度="main.humidity"></a></p><p>風速: <a 風速="wind.speed"></a></p><p>風向: <a 風向="wind.deg"></a></p><p>都市名: <a 都市名="name"></a></p> </td>
-=======
-                <th><p>国名: <a key=""></a></p> </th>
-                <td></td>
-                <td><p>緯度: <a 緯度="coord.lon"></a></p> <p>経度: <a 経度="coord.lat"></a></p> <p>天気: <a 天気="weather.description"></a></p> <p>最低気温: <a 最低気温="main.temp_min"></a></p><p>最高気温: <a 最高気温="main.temp_man"></a></p><p>湿度: <a 湿度="main.humidity"></a></p><p>風速: <a 風速="wind.speed"></a></p><p>風向: <a 風向="wind.deg"></a></p><p>都市名: <a 都市名="name"></a></p> </td>
->>>>>>> e0448eb0c8e110064b206c82606c24a18da7c2d0
-                <td></td>
-            </tr>
-        </tbody>
-    </table> 
-    <p></p>
+    <label for="kuni">国名検索</label>
+    <input type="text" number="kuni" id="kuni" size="10">
+    <button id="print">選択</button>
+
     <table border="5">
     <tr>
     <th>国名</th><th>緯度</th><th>経度</th><th>天気</th><th>最低気温</th><th>最高気温</th><th>湿度</th><th>風速</th><th>風向</th>

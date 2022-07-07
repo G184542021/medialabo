@@ -49,12 +49,20 @@ let data = {
 console.log(data.name);
 console.log(data.main.temp_max);
 console.log(data.main.temp_min);
+
+let b = document.querySelector('#print');
+b.addEventListener('click', table);
+
+function table() {
 Name.textContent = data.name;
 Coordlon.textContent = data.coord.lon;
 Coordlat.textContent = data.coord.lat;
-Weatherdescription.textContent = data.weather.discription;
+Weatherdescription.textContent = data.weather;
 Maintemp_min.textContent = data.main.temp_min;
 Maintemp_max.textContent = data.main.temp_max;
 Mainhumidity.textContent = data.main.humidity;
 Windspeed.textContent = data.wind.speed;
 Winddeg.textContent = data.wind.deg;
+
+
+}
