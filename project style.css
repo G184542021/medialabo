@@ -4,3 +4,29 @@ html {
 table {
     color:white; background-color:black;
 }
+label {
+    position: relative; /* 今の位置を基準 */
+    top: 350px; /* 上から10px */
+    left: 250px; /* 左から20px */
+    }
+select {
+    position: relative; /* 今の位置を基準 */
+    top: 350px; /* 上から10px */
+    left: 250px; /* 左から20px */
+    }
+button {
+    position: relative; /* 今の位置を基準 */
+    top: 350px; /* 上から10px */
+    left: 250px; /* 左から20px */
+    }
+table {
+    position: relative; /* 今の位置を基準 */
+    top: 360px; /* 上から10px */
+    left: 240px; /* 左から20px */
+    }
+button {
+    background-color:aqua
+}
+select {
+    background-color:aqua
+}
