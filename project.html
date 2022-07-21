@@ -5,28 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project.html</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    
+  
     <link rel="stylesheet" href="project style.css">
-    <script src="weather.js" defer></script>
+    <script src="project.js" defer></script>
 </head>
 <body>
-    
-    <label for="count">選択してください</label>
-        <select id="count">
-        <option value="1">カイロ(エジプト)</option>
-            <option value="2">モスクワ(ロシア)</option>
-            <option value="3">ヨハネスブルク(南アフリカ)</option>
-            <option value="4">北京(中華人民共和国)</option>
-            <option value="5">東京(日本)</option>
-            <option value="6">シンガポール</option>
-            <option value="7">シドニー(オーストラリア)</option>
-            <option value="8">ロンドン(イギリス)</option>
-            <option value="9">パリ(フランス)</option>
-            <option value="10">リオデジャネイロ(ブラジル)</option>
-            <option value="10">ニューヨーク(アメリカ合衆国)</option>
-            <option value="10">ロサンゼルス(アメリカ合衆国)</option>
+    <h1>世界の天気</h1>
+    <label for="id">選択してください</label>
+        <select id="id">
+        <option value="360630">カイロ(エジプト)</option>
+            <option value="524901">モスクワ(ロシア)</option>
+            <option value="993800">ヨハネスブルク(南アフリカ)</option>
+            <option value="1816670">北京(中華人民共和国)</option>
+            <option value="1850147">東京(日本)</option>
+            <option value="1880252">シンガポール</option>
+            <option value="2147714">シドニー(オーストラリア)</option>
+            <option value="2643743">ロンドン(イギリス)</option>
+            <option value="2968815">パリ(フランス)</option>
+            <option value="3451189">リオデジャネイロ(ブラジル)</option>
+            <option value="5128581">ニューヨーク(アメリカ合衆国)</option>
+            <option value="5368361">ロサンゼルス(アメリカ合衆国)</option>
         </select>
-    <button id="print">選択</button>
-
+    <p></p>    
     <table border="5" id="aaa">
     <tr>
     <th>国名</th><th>緯度</th><th>経度</th><th>天気</th><th>最低気温</th><th>最高気温</th><th>湿度</th><th>風速</th><th>風向</th>
@@ -34,12 +36,10 @@
     <tr>
     <td id="Name"></td><td id="Coordlon"></td><td id ="Coordlat"></td><td id="Weatherdescription"></td><td id="Maintemp_min"></td><td id="Maintemp_max"></td><td id="Mainhumidity"></td><td id="Windspeed"></td><td id="Winddeg"></td>
     </tr>
-    <tr>
-    <td>あ</td><td>あ</td><td>あ</td><td>あ</td><td>あ</td><td>あ</td><td>あ</td><td>あ</td><td>あ</td>
-    </tr>
+    
     </table>
     
 </body>
 </html>
    
-    
+ 

@@ -1,32 +1,31 @@
 html {
-    background-color:blanchedalmond;
+    background-image: url("https://www.gekiochikun.jp/wp/wp-content/uploads/2021/05/weather-at-the-cleaning_002.jpg");
+    background-size: cover;
 }
+html {
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    text-align: center;
+}
+
 table {
     color:white; background-color:black;
-}
-label {
-    position: relative; /* 今の位置を基準 */
-    top: 350px; /* 上から10px */
-    left: 250px; /* 左から20px */
-    }
-select {
-    position: relative; /* 今の位置を基準 */
-    top: 350px; /* 上から10px */
-    left: 250px; /* 左から20px */
-    }
-button {
-    position: relative; /* 今の位置を基準 */
-    top: 350px; /* 上から10px */
-    left: 250px; /* 左から20px */
-    }
+  }
+  button {
+    background-color:aqua
+  }
+  select {
+    background-color:aqua
+  }
+  
 table {
-    position: relative; /* 今の位置を基準 */
-    top: 360px; /* 上から10px */
-    left: 240px; /* 左から20px */
+    width: 800px;
+    height: 120px;
     }
-button {
-    background-color:aqua
-}
-select {
-    background-color:aqua
-}
+    
+
