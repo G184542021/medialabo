@@ -30,18 +30,22 @@ function hantei() {
         }
     }
     else if (kotae > m) {
-        if (n >= 4) {
-            result.textConent = 'まちがい. 残念でした答えは' + kotae + 'です.';
+        if (n == 4) {
+            result.textContent = 'まちがい. 残念でした答えは' + kotae + 'です.';
+        } else if (n < 4) {
+            result.textContent = 'まちがい. 答えはもっと大きいですよ'; 
         } else {
-            result.textContent = 'まちがい. 答えはもっと大きいですよ';
+            result.textContent = '答えは' + m + 'でした. すでにゲームは終わっています';
         }
     }
     
     else {
         if (n >= 4) {
             result.textContent = 'まちがい. 残念でした答えは' + kotae + 'です.';
+        } else if (n < 4) {
+            result.textContent = 'まちがい. 答えはもっと小さいですよ'; 
         } else {
-            result.textContent = 'まちがい. 答えはもっと小さいですよ';
+            result.textContent = '答えは' + m + 'でした. すでにゲームは終わっています';
         }
         
     }
